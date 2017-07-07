@@ -1,0 +1,19 @@
+<h1>Teste#index</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Teste</th>
+      <th>Bio</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @teste.each do |t| %>
+    <tr>
+      <td><%= t.descricao %></td>
+      <td><%= t.bio %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

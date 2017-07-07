@@ -1,0 +1,7 @@
+<h1>Consulta a temperatura de uma cidade</h1>
+
+<%= form_tag(tempo_path, method: :get) do %>
+<%= text_field_tag :cidade, params[:cidade] %>
+<%= submit_tag 'Search' %>
+
+<% end %>
