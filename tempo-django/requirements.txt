@@ -11,7 +11,7 @@ MarkupSafe==1.0
 pipreqs==0.4.9
 pytz==2017.2
 requests==2.18.1
-urllib3==1.21.1
+urllib3==1.26.5
 Werkzeug==0.12.2
 whitenoise==3.3.0
 yarg==0.1.9
